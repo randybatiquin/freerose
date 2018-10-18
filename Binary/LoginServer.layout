@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="default" />
+	<File name="..\Common\config.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="54" />
+	</File>
+	<File name="..\Common\database\database.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="100" />
+	</File>
+	<File name="..\Login Server\LoginPackets.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\Login Server\loginserver.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

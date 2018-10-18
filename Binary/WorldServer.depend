@@ -1,0 +1,1897 @@
+# depslib dependency file v1.0
+1373559192 source:c:\rosefate\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373559192 source:c:\rosefate\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373559192 c:\rosefate\common\database\database.h
+	"../sockets.h"
+
+1373559191 c:\rosefate\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373559192 c:\rosefate\common\log.h
+
+1373559191 c:\rosefate\common\rosecrypt.hpp
+	<windows.h>
+
+1373559192 c:\rosefate\common\config.h
+
+1373559191 source:c:\rosefate\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373559192 source:c:\rosefate\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1373559192 source:c:\rosefate\common\socketbase.cpp
+	"sockets.h"
+
+1373559192 source:c:\rosefate\common\socketclient.cpp
+	"sockets.h"
+
+1373559191 source:c:\rosefate\common\socketserver.cpp
+	"sockets.h"
+
+1373559249 source:c:\rosefate\world server\aip\aiactions.cpp
+	"../WorldServer.h"
+
+1405575913 c:\rosefate\world server\worldserver.h
+	"datatypes.h"
+	"../common/sockets.h"
+	"worldmonster.h"
+	"worldmap.h"
+	"player.h"
+	"character.h"
+	"party.h"
+	"stbhandler.h"
+	"stlhandler.h"
+	"quest/strhashing.h"
+	"quest/CRoseArray.hpp"
+	"quest/CRoseFile.hpp"
+	"quest/CStrStb.hpp"
+	"quest/CIntStb.hpp"
+	"quest/QuestTrigger.h"
+	"ltbhandler.h"
+	"aip/Aip.h"
+
+1406427961 c:\rosefate\world server\datatypes.h
+	"datatypes_compat.h"
+	"../common/sockets.h"
+
+1373559249 c:\rosefate\world server\datatypes_compat.h
+
+1373559249 c:\rosefate\world server\worldmonster.h
+	"character.h"
+	"player.h"
+	"worldserver.h"
+
+1406505593 c:\rosefate\world server\character.h
+	"chartype.h"
+
+1406427963 c:\rosefate\world server\chartype.h
+	"datatypes.h"
+
+1405563259 c:\rosefate\world server\player.h
+	"character.h"
+
+1400761252 c:\rosefate\world server\worldmap.h
+	"worldserver.h"
+	"player.h"
+	"character.h"
+	"worldmonster.h"
+	"datatypes.h"
+
+1400751340 c:\rosefate\world server\party.h
+	"worldserver.h"
+	"datatypes.h"
+
+1373559263 c:\rosefate\world server\stbhandler.h
+	"worldserver.h"
+
+1373559264 c:\rosefate\world server\stlhandler.h
+	"worldserver.h"
+
+1373559264 c:\rosefate\world server\quest\strhashing.h
+
+1373559264 c:\rosefate\world server\quest\crosearray.hpp
+	<memory.h>
+
+1373559264 c:\rosefate\world server\quest\crosefile.hpp
+	<stdio.h>
+	<stdlib.h>
+	"CRoseArray.hpp"
+
+1373559264 c:\rosefate\world server\quest\cstrstb.hpp
+
+1373559264 c:\rosefate\world server\quest\cintstb.hpp
+
+1373559264 c:\rosefate\world server\quest\questtrigger.h
+	"QuestConditions.h"
+	"QuestActions.h"
+
+1373559264 c:\rosefate\world server\quest\questconditions.h
+
+1373559264 c:\rosefate\world server\quest\questactions.h
+
+1373559266 c:\rosefate\world server\ltbhandler.h
+	"worldserver.h"
+	<map>
+
+1373559249 c:\rosefate\world server\aip\aip.h
+	"AiConditions.h"
+	"AiActions.h"
+
+1373559249 c:\rosefate\world server\aip\aiconditions.h
+
+1373559249 c:\rosefate\world server\aip\aiactions.h
+
+1373559249 source:c:\rosefate\world server\aip\aiconditions.cpp
+	"../WorldServer.h"
+
+1400951331 source:c:\rosefate\world server\aip\aip.cpp
+	"../WorldServer.h"
+
+1406431893 source:c:\rosefate\world server\battle.cpp
+	"character.h"
+	"worldserver.h"
+
+1406427962 source:c:\rosefate\world server\character.cpp
+	"character.h"
+	"worldserver.h"
+
+1405111545 source:c:\rosefate\world server\charevent.cpp
+	"character.h"
+
+1406428797 source:c:\rosefate\world server\charfunctions.cpp
+	"character.h"
+	"worldserver.h"
+	<cmath>
+
+1373559266 source:c:\rosefate\world server\charstats.cpp
+	"character.h"
+
+1373559249 source:c:\rosefate\world server\clan.cpp
+	"worldserver.h"
+
+1373559264 source:c:\rosefate\world server\console.cpp
+	"WorldServer.h"
+
+1404765261 source:c:\rosefate\world server\extrafunctions.cpp
+	"worldserver.h"
+
+1405607891 source:c:\rosefate\world server\gmcmds.cpp
+	"worldserver.h"
+	"player.h"
+	"datatypes.h"
+
+1400761873 source:c:\rosefate\world server\group.cpp
+	"worldserver.h"
+
+1373559266 source:c:\rosefate\world server\itemdata.cpp
+	"datatypes.h"
+
+1373559249 source:c:\rosefate\world server\ltbhandler.cpp
+	"ltbhandler.h"
+
+1403730581 source:c:\rosefate\world server\main.cpp
+	"worldserver.h"
+
+1400763830 source:c:\rosefate\world server\mainprocess.cpp
+	"worldserver.h"
+
+1400751337 source:c:\rosefate\world server\mapfunctions.cpp
+	"worldmap.h"
+
+1373559266 source:c:\rosefate\world server\monster.cpp
+	"worldmonster.h"
+
+1373559264 source:c:\rosefate\world server\monsterevents.cpp
+	"worldmonster.h"
+
+1406212880 source:c:\rosefate\world server\monsterfunctions.cpp
+	"worldmonster.h"
+
+1404529936 source:c:\rosefate\world server\monsterstats.cpp
+	"worldmonster.h"
+
+1373559264 source:c:\rosefate\world server\party.cpp
+	"worldserver.h"
+
+1400751342 source:c:\rosefate\world server\partyfunctions.cpp
+	"party.h"
+
+1405566099 source:c:\rosefate\world server\player.cpp
+	"player.h"
+	"worldserver.h"
+
+1373559249 source:c:\rosefate\world server\playerdata.cpp
+	"player.h"
+	"worldserver.h"
+
+1405563224 source:c:\rosefate\world server\playerfunctions.cpp
+	"player.h"
+	"worldserver.h"
+
+1373559249 source:c:\rosefate\world server\playerquest.cpp
+	"player.h"
+	"worldserver.h"
+
+1373559264 source:c:\rosefate\world server\quest.cpp
+	"worldserver.h"
+
+1400444294 source:c:\rosefate\world server\quest\questactions.cpp
+	"../worldserver.h"
+
+1373559264 source:c:\rosefate\world server\quest\questactionsc.cpp
+	"../worldserver.h"
+
+1400444294 source:c:\rosefate\world server\quest\questconditions.cpp
+	"../worldserver.h"
+
+1373559264 source:c:\rosefate\world server\quest\questconditionsc.cpp
+	"../worldserver.h"
+
+1400951331 source:c:\rosefate\world server\quest\quests.cpp
+	"../worldserver.h"
+
+1373559264 source:c:\rosefate\world server\quest\strhashing.cpp
+	"../worldserver.h"
+	"strhashing.h"
+
+1400772776 source:c:\rosefate\world server\serverfunctions.cpp
+	"worldserver.h"
+
+1373559264 source:c:\rosefate\world server\signal.cpp
+	"worldserver.h"
+
+1405695824 source:c:\rosefate\world server\startup.cpp
+	"worldserver.h"
+
+1373559266 source:c:\rosefate\world server\stbhandler.cpp
+	"worldserver.h"
+
+1373559249 source:c:\rosefate\world server\stlhandler.cpp
+	"worldserver.h"
+
+1400761252 source:c:\rosefate\world server\worldmap.cpp
+	"worldmap.h"
+
+1373559263 source:c:\rosefate\world server\worldmonster.cpp
+	"worldmonster.h"
+
+1373559249 source:c:\rosefate\world server\worldprocess.cpp
+	"worldserver.h"
+
+1406165259 source:c:\rosefate\world server\worldserver.cpp
+	"worldserver.h"
+	<fstream>
+
+1406212812 source:c:\rosefate\world server\buff.cpp
+	"worldserver.h"
+
+1406434803 source:c:\rosefate\world server\playerstats.cpp
+	"player.h"
+	"worldserver.h"
+
+1406212812 source:c:\rosefate\world server\worldpackets.cpp
+	"worldserver.h"
+
+1373551992 source:c:\users\cosola\desktop\project_rose\dev4\common\socketbase.cpp
+	"sockets.h"
+
+1373551991 c:\users\cosola\desktop\project_rose\dev4\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373551992 c:\users\cosola\desktop\project_rose\dev4\common\log.h
+
+1373551991 c:\users\cosola\desktop\project_rose\dev4\common\rosecrypt.hpp
+	<windows.h>
+
+1373551992 c:\users\cosola\desktop\project_rose\dev4\common\config.h
+
+1373551992 c:\users\cosola\desktop\project_rose\dev4\common\database\database.h
+	"../sockets.h"
+
+1373551992 source:c:\users\cosola\desktop\project_rose\dev4\common\socketclient.cpp
+	"sockets.h"
+
+1373551991 source:c:\users\cosola\desktop\project_rose\dev4\common\socketserver.cpp
+	"sockets.h"
+
+1373551992 source:c:\users\cosola\desktop\project_rose\dev4\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373551992 source:c:\users\cosola\desktop\project_rose\dev4\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373551991 source:c:\users\cosola\desktop\project_rose\dev4\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373551992 source:c:\users\cosola\desktop\project_rose\dev4\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1406205612 source:c:\users\cosola\desktop\project_rose\dev4\world server\buff.cpp
+	"worldserver.h"
+
+1405568713 c:\users\cosola\desktop\project_rose\dev4\world server\worldserver.h
+	"datatypes.h"
+	"../common/sockets.h"
+	"worldmonster.h"
+	"worldmap.h"
+	"player.h"
+	"character.h"
+	"party.h"
+	"stbhandler.h"
+	"stlhandler.h"
+	"quest/strhashing.h"
+	"quest/CRoseArray.hpp"
+	"quest/CRoseFile.hpp"
+	"quest/CStrStb.hpp"
+	"quest/CIntStb.hpp"
+	"quest/QuestTrigger.h"
+	"ltbhandler.h"
+	"aip/Aip.h"
+
+1406420761 c:\users\cosola\desktop\project_rose\dev4\world server\datatypes.h
+	"datatypes_compat.h"
+	"../common/sockets.h"
+
+1373552049 c:\users\cosola\desktop\project_rose\dev4\world server\datatypes_compat.h
+
+1373552049 c:\users\cosola\desktop\project_rose\dev4\world server\worldmonster.h
+	"character.h"
+	"player.h"
+	"worldserver.h"
+
+1406498393 c:\users\cosola\desktop\project_rose\dev4\world server\character.h
+	"chartype.h"
+
+1406420763 c:\users\cosola\desktop\project_rose\dev4\world server\chartype.h
+	"datatypes.h"
+
+1405556059 c:\users\cosola\desktop\project_rose\dev4\world server\player.h
+	"character.h"
+
+1400754052 c:\users\cosola\desktop\project_rose\dev4\world server\worldmap.h
+	"worldserver.h"
+	"player.h"
+	"character.h"
+	"worldmonster.h"
+	"datatypes.h"
+
+1400744140 c:\users\cosola\desktop\project_rose\dev4\world server\party.h
+	"worldserver.h"
+	"datatypes.h"
+
+1373552063 c:\users\cosola\desktop\project_rose\dev4\world server\stbhandler.h
+	"worldserver.h"
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\stlhandler.h
+	"worldserver.h"
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\quest\strhashing.h
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\quest\crosearray.hpp
+	<memory.h>
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\quest\crosefile.hpp
+	<stdio.h>
+	<stdlib.h>
+	"CRoseArray.hpp"
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\quest\cstrstb.hpp
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\quest\cintstb.hpp
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\quest\questtrigger.h
+	"QuestConditions.h"
+	"QuestActions.h"
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\quest\questconditions.h
+
+1373552064 c:\users\cosola\desktop\project_rose\dev4\world server\quest\questactions.h
+
+1373552066 c:\users\cosola\desktop\project_rose\dev4\world server\ltbhandler.h
+	"worldserver.h"
+	<map>
+
+1373552049 c:\users\cosola\desktop\project_rose\dev4\world server\aip\aip.h
+	"AiConditions.h"
+	"AiActions.h"
+
+1373552049 c:\users\cosola\desktop\project_rose\dev4\world server\aip\aiconditions.h
+
+1373552049 c:\users\cosola\desktop\project_rose\dev4\world server\aip\aiactions.h
+
+1400756630 source:c:\users\cosola\desktop\project_rose\dev4\world server\mainprocess.cpp
+	"worldserver.h"
+
+1373552066 source:c:\users\cosola\desktop\project_rose\dev4\world server\monster.cpp
+	"worldmonster.h"
+
+1373552064 source:c:\users\cosola\desktop\project_rose\dev4\world server\monsterevents.cpp
+	"worldmonster.h"
+
+1404522736 source:c:\users\cosola\desktop\project_rose\dev4\world server\monsterstats.cpp
+	"worldmonster.h"
+
+1373552064 source:c:\users\cosola\desktop\project_rose\dev4\world server\party.cpp
+	"worldserver.h"
+
+1400765576 source:c:\users\cosola\desktop\project_rose\dev4\world server\serverfunctions.cpp
+	"worldserver.h"
+
+1373552064 source:c:\users\cosola\desktop\project_rose\dev4\world server\signal.cpp
+	"worldserver.h"
+
+1373552063 source:c:\users\cosola\desktop\project_rose\dev4\world server\worldmonster.cpp
+	"worldmonster.h"
+
+1373552049 source:c:\users\cosola\desktop\project_rose\dev4\world server\worldprocess.cpp
+	"worldserver.h"
+
+1373552049 source:c:\users\cosola\desktop\project_rose\dev4\world server\aip\aiactions.cpp
+	"../WorldServer.h"
+
+1373552049 source:c:\users\cosola\desktop\project_rose\dev4\world server\aip\aiconditions.cpp
+	"../WorldServer.h"
+
+1400944131 source:c:\users\cosola\desktop\project_rose\dev4\world server\aip\aip.cpp
+	"../WorldServer.h"
+
+1406604472 source:c:\users\cosola\desktop\project_rose\dev4\world server\battle.cpp
+	"character.h"
+	"worldserver.h"
+
+1406420762 source:c:\users\cosola\desktop\project_rose\dev4\world server\character.cpp
+	"character.h"
+	"worldserver.h"
+
+1405104345 source:c:\users\cosola\desktop\project_rose\dev4\world server\charevent.cpp
+	"character.h"
+
+1406421597 source:c:\users\cosola\desktop\project_rose\dev4\world server\charfunctions.cpp
+	"character.h"
+	"worldserver.h"
+	<cmath>
+
+1373552066 source:c:\users\cosola\desktop\project_rose\dev4\world server\charstats.cpp
+	"character.h"
+
+1373552049 source:c:\users\cosola\desktop\project_rose\dev4\world server\clan.cpp
+	"worldserver.h"
+
+1373552064 source:c:\users\cosola\desktop\project_rose\dev4\world server\console.cpp
+	"WorldServer.h"
+
+1404758061 source:c:\users\cosola\desktop\project_rose\dev4\world server\extrafunctions.cpp
+	"worldserver.h"
+
+1405600691 source:c:\users\cosola\desktop\project_rose\dev4\world server\gmcmds.cpp
+	"worldserver.h"
+	"player.h"
+	"datatypes.h"
+
+1400754673 source:c:\users\cosola\desktop\project_rose\dev4\world server\group.cpp
+	"worldserver.h"
+
+1373552066 source:c:\users\cosola\desktop\project_rose\dev4\world server\itemdata.cpp
+	"datatypes.h"
+
+1373552049 source:c:\users\cosola\desktop\project_rose\dev4\world server\ltbhandler.cpp
+	"ltbhandler.h"
+
+1403723381 source:c:\users\cosola\desktop\project_rose\dev4\world server\main.cpp
+	"worldserver.h"
+
+1400744137 source:c:\users\cosola\desktop\project_rose\dev4\world server\mapfunctions.cpp
+	"worldmap.h"
+
+1406205680 source:c:\users\cosola\desktop\project_rose\dev4\world server\monsterfunctions.cpp
+	"worldmonster.h"
+
+1400744142 source:c:\users\cosola\desktop\project_rose\dev4\world server\partyfunctions.cpp
+	"party.h"
+
+1405558899 source:c:\users\cosola\desktop\project_rose\dev4\world server\player.cpp
+	"player.h"
+	"worldserver.h"
+
+1373552049 source:c:\users\cosola\desktop\project_rose\dev4\world server\playerdata.cpp
+	"player.h"
+	"worldserver.h"
+
+1405556024 source:c:\users\cosola\desktop\project_rose\dev4\world server\playerfunctions.cpp
+	"player.h"
+	"worldserver.h"
+
+1373552049 source:c:\users\cosola\desktop\project_rose\dev4\world server\playerquest.cpp
+	"player.h"
+	"worldserver.h"
+
+1406427603 source:c:\users\cosola\desktop\project_rose\dev4\world server\playerstats.cpp
+	"player.h"
+	"worldserver.h"
+
+1373552064 source:c:\users\cosola\desktop\project_rose\dev4\world server\quest.cpp
+	"worldserver.h"
+
+1400437094 source:c:\users\cosola\desktop\project_rose\dev4\world server\quest\questactions.cpp
+	"../worldserver.h"
+
+1373552064 source:c:\users\cosola\desktop\project_rose\dev4\world server\quest\questactionsc.cpp
+	"../worldserver.h"
+
+1400437094 source:c:\users\cosola\desktop\project_rose\dev4\world server\quest\questconditions.cpp
+	"../worldserver.h"
+
+1373552064 source:c:\users\cosola\desktop\project_rose\dev4\world server\quest\questconditionsc.cpp
+	"../worldserver.h"
+
+1400944131 source:c:\users\cosola\desktop\project_rose\dev4\world server\quest\quests.cpp
+	"../worldserver.h"
+
+1373552064 source:c:\users\cosola\desktop\project_rose\dev4\world server\quest\strhashing.cpp
+	"../worldserver.h"
+	"strhashing.h"
+
+1373552066 source:c:\users\cosola\desktop\project_rose\dev4\world server\stbhandler.cpp
+	"worldserver.h"
+
+1373552049 source:c:\users\cosola\desktop\project_rose\dev4\world server\stlhandler.cpp
+	"worldserver.h"
+
+1400754052 source:c:\users\cosola\desktop\project_rose\dev4\world server\worldmap.cpp
+	"worldmap.h"
+
+1406205612 source:c:\users\cosola\desktop\project_rose\dev4\world server\worldpackets.cpp
+	"worldserver.h"
+
+1406158059 source:c:\users\cosola\desktop\project_rose\dev4\world server\worldserver.cpp
+	"worldserver.h"
+	<fstream>
+
+1373555592 source:c:\users\cosola\desktop\dev4\common\socketbase.cpp
+	"sockets.h"
+
+1373555591 c:\users\cosola\desktop\dev4\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373555592 c:\users\cosola\desktop\dev4\common\log.h
+
+1373555591 c:\users\cosola\desktop\dev4\common\rosecrypt.hpp
+	<windows.h>
+
+1373555592 c:\users\cosola\desktop\dev4\common\config.h
+
+1373555592 c:\users\cosola\desktop\dev4\common\database\database.h
+	"../sockets.h"
+
+1373555592 source:c:\users\cosola\desktop\dev4\common\socketclient.cpp
+	"sockets.h"
+
+1373555591 source:c:\users\cosola\desktop\dev4\common\socketserver.cpp
+	"sockets.h"
+
+1373555592 source:c:\users\cosola\desktop\dev4\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373555592 source:c:\users\cosola\desktop\dev4\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373555591 source:c:\users\cosola\desktop\dev4\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373555592 source:c:\users\cosola\desktop\dev4\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1406209212 source:c:\users\cosola\desktop\dev4\world server\buff.cpp
+	"worldserver.h"
+
+1405572313 c:\users\cosola\desktop\dev4\world server\worldserver.h
+	"datatypes.h"
+	"../common/sockets.h"
+	"worldmonster.h"
+	"worldmap.h"
+	"player.h"
+	"character.h"
+	"party.h"
+	"stbhandler.h"
+	"stlhandler.h"
+	"quest/strhashing.h"
+	"quest/CRoseArray.hpp"
+	"quest/CRoseFile.hpp"
+	"quest/CStrStb.hpp"
+	"quest/CIntStb.hpp"
+	"quest/QuestTrigger.h"
+	"ltbhandler.h"
+	"aip/Aip.h"
+
+1406424361 c:\users\cosola\desktop\dev4\world server\datatypes.h
+	"datatypes_compat.h"
+	"../common/sockets.h"
+
+1373555649 c:\users\cosola\desktop\dev4\world server\datatypes_compat.h
+
+1373555649 c:\users\cosola\desktop\dev4\world server\worldmonster.h
+	"character.h"
+	"player.h"
+	"worldserver.h"
+
+1406501993 c:\users\cosola\desktop\dev4\world server\character.h
+	"chartype.h"
+
+1406424363 c:\users\cosola\desktop\dev4\world server\chartype.h
+	"datatypes.h"
+
+1405559659 c:\users\cosola\desktop\dev4\world server\player.h
+	"character.h"
+
+1400757652 c:\users\cosola\desktop\dev4\world server\worldmap.h
+	"worldserver.h"
+	"player.h"
+	"character.h"
+	"worldmonster.h"
+	"datatypes.h"
+
+1400747740 c:\users\cosola\desktop\dev4\world server\party.h
+	"worldserver.h"
+	"datatypes.h"
+
+1373555663 c:\users\cosola\desktop\dev4\world server\stbhandler.h
+	"worldserver.h"
+
+1373555664 c:\users\cosola\desktop\dev4\world server\stlhandler.h
+	"worldserver.h"
+
+1373555664 c:\users\cosola\desktop\dev4\world server\quest\strhashing.h
+
+1373555664 c:\users\cosola\desktop\dev4\world server\quest\crosearray.hpp
+	<memory.h>
+
+1373555664 c:\users\cosola\desktop\dev4\world server\quest\crosefile.hpp
+	<stdio.h>
+	<stdlib.h>
+	"CRoseArray.hpp"
+
+1373555664 c:\users\cosola\desktop\dev4\world server\quest\cstrstb.hpp
+
+1373555664 c:\users\cosola\desktop\dev4\world server\quest\cintstb.hpp
+
+1373555664 c:\users\cosola\desktop\dev4\world server\quest\questtrigger.h
+	"QuestConditions.h"
+	"QuestActions.h"
+
+1373555664 c:\users\cosola\desktop\dev4\world server\quest\questconditions.h
+
+1373555664 c:\users\cosola\desktop\dev4\world server\quest\questactions.h
+
+1373555666 c:\users\cosola\desktop\dev4\world server\ltbhandler.h
+	"worldserver.h"
+	<map>
+
+1373555649 c:\users\cosola\desktop\dev4\world server\aip\aip.h
+	"AiConditions.h"
+	"AiActions.h"
+
+1373555649 c:\users\cosola\desktop\dev4\world server\aip\aiconditions.h
+
+1373555649 c:\users\cosola\desktop\dev4\world server\aip\aiactions.h
+
+1400760230 source:c:\users\cosola\desktop\dev4\world server\mainprocess.cpp
+	"worldserver.h"
+
+1373555666 source:c:\users\cosola\desktop\dev4\world server\monster.cpp
+	"worldmonster.h"
+
+1373555664 source:c:\users\cosola\desktop\dev4\world server\monsterevents.cpp
+	"worldmonster.h"
+
+1404526336 source:c:\users\cosola\desktop\dev4\world server\monsterstats.cpp
+	"worldmonster.h"
+
+1373555664 source:c:\users\cosola\desktop\dev4\world server\party.cpp
+	"worldserver.h"
+
+1400769176 source:c:\users\cosola\desktop\dev4\world server\serverfunctions.cpp
+	"worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\dev4\world server\signal.cpp
+	"worldserver.h"
+
+1373555663 source:c:\users\cosola\desktop\dev4\world server\worldmonster.cpp
+	"worldmonster.h"
+
+1373555649 source:c:\users\cosola\desktop\dev4\world server\worldprocess.cpp
+	"worldserver.h"
+
+1373555649 source:c:\users\cosola\desktop\dev4\world server\aip\aiactions.cpp
+	"../WorldServer.h"
+
+1373555649 source:c:\users\cosola\desktop\dev4\world server\aip\aiconditions.cpp
+	"../WorldServer.h"
+
+1400947731 source:c:\users\cosola\desktop\dev4\world server\aip\aip.cpp
+	"../WorldServer.h"
+
+1406608072 source:c:\users\cosola\desktop\dev4\world server\battle.cpp
+	"character.h"
+	"worldserver.h"
+
+1406424362 source:c:\users\cosola\desktop\dev4\world server\character.cpp
+	"character.h"
+	"worldserver.h"
+
+1405107945 source:c:\users\cosola\desktop\dev4\world server\charevent.cpp
+	"character.h"
+
+1406425197 source:c:\users\cosola\desktop\dev4\world server\charfunctions.cpp
+	"character.h"
+	"worldserver.h"
+	<cmath>
+
+1373555666 source:c:\users\cosola\desktop\dev4\world server\charstats.cpp
+	"character.h"
+
+1373555649 source:c:\users\cosola\desktop\dev4\world server\clan.cpp
+	"worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\dev4\world server\console.cpp
+	"WorldServer.h"
+
+1404761661 source:c:\users\cosola\desktop\dev4\world server\extrafunctions.cpp
+	"worldserver.h"
+
+1405604291 source:c:\users\cosola\desktop\dev4\world server\gmcmds.cpp
+	"worldserver.h"
+	"player.h"
+	"datatypes.h"
+
+1400758273 source:c:\users\cosola\desktop\dev4\world server\group.cpp
+	"worldserver.h"
+
+1373555666 source:c:\users\cosola\desktop\dev4\world server\itemdata.cpp
+	"datatypes.h"
+
+1373555649 source:c:\users\cosola\desktop\dev4\world server\ltbhandler.cpp
+	"ltbhandler.h"
+
+1403726981 source:c:\users\cosola\desktop\dev4\world server\main.cpp
+	"worldserver.h"
+
+1400747737 source:c:\users\cosola\desktop\dev4\world server\mapfunctions.cpp
+	"worldmap.h"
+
+1406209280 source:c:\users\cosola\desktop\dev4\world server\monsterfunctions.cpp
+	"worldmonster.h"
+
+1400747742 source:c:\users\cosola\desktop\dev4\world server\partyfunctions.cpp
+	"party.h"
+
+1405562499 source:c:\users\cosola\desktop\dev4\world server\player.cpp
+	"player.h"
+	"worldserver.h"
+
+1373555649 source:c:\users\cosola\desktop\dev4\world server\playerdata.cpp
+	"player.h"
+	"worldserver.h"
+
+1405559624 source:c:\users\cosola\desktop\dev4\world server\playerfunctions.cpp
+	"player.h"
+	"worldserver.h"
+
+1373555649 source:c:\users\cosola\desktop\dev4\world server\playerquest.cpp
+	"player.h"
+	"worldserver.h"
+
+1406431203 source:c:\users\cosola\desktop\dev4\world server\playerstats.cpp
+	"player.h"
+	"worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\dev4\world server\quest.cpp
+	"worldserver.h"
+
+1400440694 source:c:\users\cosola\desktop\dev4\world server\quest\questactions.cpp
+	"../worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\dev4\world server\quest\questactionsc.cpp
+	"../worldserver.h"
+
+1400440694 source:c:\users\cosola\desktop\dev4\world server\quest\questconditions.cpp
+	"../worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\dev4\world server\quest\questconditionsc.cpp
+	"../worldserver.h"
+
+1400947731 source:c:\users\cosola\desktop\dev4\world server\quest\quests.cpp
+	"../worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\dev4\world server\quest\strhashing.cpp
+	"../worldserver.h"
+	"strhashing.h"
+
+1424336741 source:c:\users\cosola\desktop\dev4\world server\startup.cpp
+	"worldserver.h"
+
+1373555666 source:c:\users\cosola\desktop\dev4\world server\stbhandler.cpp
+	"worldserver.h"
+
+1373555649 source:c:\users\cosola\desktop\dev4\world server\stlhandler.cpp
+	"worldserver.h"
+
+1400757652 source:c:\users\cosola\desktop\dev4\world server\worldmap.cpp
+	"worldmap.h"
+
+1406209212 source:c:\users\cosola\desktop\dev4\world server\worldpackets.cpp
+	"worldserver.h"
+
+1406161659 source:c:\users\cosola\desktop\dev4\world server\worldserver.cpp
+	"worldserver.h"
+	<fstream>
+
+1373555592 source:c:\users\cosola\desktop\evolution  server\common\socketbase.cpp
+	"sockets.h"
+
+1373555591 c:\users\cosola\desktop\evolution  server\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373555592 c:\users\cosola\desktop\evolution  server\common\log.h
+
+1373555591 c:\users\cosola\desktop\evolution  server\common\rosecrypt.hpp
+	<windows.h>
+
+1373555592 c:\users\cosola\desktop\evolution  server\common\config.h
+
+1373555592 c:\users\cosola\desktop\evolution  server\common\database\database.h
+	"../sockets.h"
+
+1373555592 source:c:\users\cosola\desktop\evolution  server\common\socketclient.cpp
+	"sockets.h"
+
+1373555591 source:c:\users\cosola\desktop\evolution  server\common\socketserver.cpp
+	"sockets.h"
+
+1373555592 source:c:\users\cosola\desktop\evolution  server\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373555592 source:c:\users\cosola\desktop\evolution  server\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373555591 source:c:\users\cosola\desktop\evolution  server\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373555592 source:c:\users\cosola\desktop\evolution  server\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1406209212 source:c:\users\cosola\desktop\evolution  server\world server\buff.cpp
+	"worldserver.h"
+
+1431665595 c:\users\cosola\desktop\evolution  server\world server\worldserver.h
+	"datatypes.h"
+	"../common/sockets.h"
+	"worldmonster.h"
+	"worldmap.h"
+	"player.h"
+	"character.h"
+	"party.h"
+	"stbhandler.h"
+	"stlhandler.h"
+	"quest/strhashing.h"
+	"quest/CRoseArray.hpp"
+	"quest/CRoseFile.hpp"
+	"quest/CStrStb.hpp"
+	"quest/CIntStb.hpp"
+	"quest/QuestTrigger.h"
+	"ltbhandler.h"
+	"aip/Aip.h"
+
+1406424361 c:\users\cosola\desktop\evolution  server\world server\datatypes.h
+	"datatypes_compat.h"
+	"../common/sockets.h"
+
+1373555649 c:\users\cosola\desktop\evolution  server\world server\datatypes_compat.h
+
+1373555649 c:\users\cosola\desktop\evolution  server\world server\worldmonster.h
+	"character.h"
+	"player.h"
+	"worldserver.h"
+
+1406501993 c:\users\cosola\desktop\evolution  server\world server\character.h
+	"chartype.h"
+
+1406424363 c:\users\cosola\desktop\evolution  server\world server\chartype.h
+	"datatypes.h"
+
+1431743882 c:\users\cosola\desktop\evolution  server\world server\player.h
+	"character.h"
+
+1400757652 c:\users\cosola\desktop\evolution  server\world server\worldmap.h
+	"worldserver.h"
+	"player.h"
+	"character.h"
+	"worldmonster.h"
+	"datatypes.h"
+
+1400747740 c:\users\cosola\desktop\evolution  server\world server\party.h
+	"worldserver.h"
+	"datatypes.h"
+
+1373555663 c:\users\cosola\desktop\evolution  server\world server\stbhandler.h
+	"worldserver.h"
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\stlhandler.h
+	"worldserver.h"
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\quest\strhashing.h
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\quest\crosearray.hpp
+	<memory.h>
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\quest\crosefile.hpp
+	<stdio.h>
+	<stdlib.h>
+	"CRoseArray.hpp"
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\quest\cstrstb.hpp
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\quest\cintstb.hpp
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\quest\questtrigger.h
+	"QuestConditions.h"
+	"QuestActions.h"
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\quest\questconditions.h
+
+1373555664 c:\users\cosola\desktop\evolution  server\world server\quest\questactions.h
+
+1373555666 c:\users\cosola\desktop\evolution  server\world server\ltbhandler.h
+	"worldserver.h"
+	<map>
+
+1373555649 c:\users\cosola\desktop\evolution  server\world server\aip\aip.h
+	"AiConditions.h"
+	"AiActions.h"
+
+1373555649 c:\users\cosola\desktop\evolution  server\world server\aip\aiconditions.h
+
+1373555649 c:\users\cosola\desktop\evolution  server\world server\aip\aiactions.h
+
+1400760230 source:c:\users\cosola\desktop\evolution  server\world server\mainprocess.cpp
+	"worldserver.h"
+
+1373555666 source:c:\users\cosola\desktop\evolution  server\world server\monster.cpp
+	"worldmonster.h"
+
+1373555664 source:c:\users\cosola\desktop\evolution  server\world server\monsterevents.cpp
+	"worldmonster.h"
+
+1404526336 source:c:\users\cosola\desktop\evolution  server\world server\monsterstats.cpp
+	"worldmonster.h"
+
+1373555664 source:c:\users\cosola\desktop\evolution  server\world server\party.cpp
+	"worldserver.h"
+
+1400769176 source:c:\users\cosola\desktop\evolution  server\world server\serverfunctions.cpp
+	"worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\evolution  server\world server\signal.cpp
+	"worldserver.h"
+
+1373555663 source:c:\users\cosola\desktop\evolution  server\world server\worldmonster.cpp
+	"worldmonster.h"
+
+1373555649 source:c:\users\cosola\desktop\evolution  server\world server\worldprocess.cpp
+	"worldserver.h"
+
+1373555649 source:c:\users\cosola\desktop\evolution  server\world server\aip\aiactions.cpp
+	"../WorldServer.h"
+
+1373555649 source:c:\users\cosola\desktop\evolution  server\world server\aip\aiconditions.cpp
+	"../WorldServer.h"
+
+1400947731 source:c:\users\cosola\desktop\evolution  server\world server\aip\aip.cpp
+	"../WorldServer.h"
+
+1431791729 source:c:\users\cosola\desktop\evolution  server\world server\battle.cpp
+	"character.h"
+	"worldserver.h"
+
+1406424362 source:c:\users\cosola\desktop\evolution  server\world server\character.cpp
+	"character.h"
+	"worldserver.h"
+
+1405107945 source:c:\users\cosola\desktop\evolution  server\world server\charevent.cpp
+	"character.h"
+
+1406425197 source:c:\users\cosola\desktop\evolution  server\world server\charfunctions.cpp
+	"character.h"
+	"worldserver.h"
+	<cmath>
+
+1373555666 source:c:\users\cosola\desktop\evolution  server\world server\charstats.cpp
+	"character.h"
+
+1373555649 source:c:\users\cosola\desktop\evolution  server\world server\clan.cpp
+	"worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\evolution  server\world server\console.cpp
+	"WorldServer.h"
+
+1404761661 source:c:\users\cosola\desktop\evolution  server\world server\extrafunctions.cpp
+	"worldserver.h"
+
+1405604291 source:c:\users\cosola\desktop\evolution  server\world server\gmcmds.cpp
+	"worldserver.h"
+	"player.h"
+	"datatypes.h"
+
+1400758273 source:c:\users\cosola\desktop\evolution  server\world server\group.cpp
+	"worldserver.h"
+
+1373555666 source:c:\users\cosola\desktop\evolution  server\world server\itemdata.cpp
+	"datatypes.h"
+
+1373555649 source:c:\users\cosola\desktop\evolution  server\world server\ltbhandler.cpp
+	"ltbhandler.h"
+
+1403726981 source:c:\users\cosola\desktop\evolution  server\world server\main.cpp
+	"worldserver.h"
+
+1400747737 source:c:\users\cosola\desktop\evolution  server\world server\mapfunctions.cpp
+	"worldmap.h"
+
+1406209280 source:c:\users\cosola\desktop\evolution  server\world server\monsterfunctions.cpp
+	"worldmonster.h"
+
+1400747742 source:c:\users\cosola\desktop\evolution  server\world server\partyfunctions.cpp
+	"party.h"
+
+1405562499 source:c:\users\cosola\desktop\evolution  server\world server\player.cpp
+	"player.h"
+	"worldserver.h"
+
+1373555649 source:c:\users\cosola\desktop\evolution  server\world server\playerdata.cpp
+	"player.h"
+	"worldserver.h"
+
+1373555649 source:c:\users\cosola\desktop\evolution  server\world server\playerquest.cpp
+	"player.h"
+	"worldserver.h"
+
+1406431203 source:c:\users\cosola\desktop\evolution  server\world server\playerstats.cpp
+	"player.h"
+	"worldserver.h"
+
+1400440694 source:c:\users\cosola\desktop\evolution  server\world server\quest\questactions.cpp
+	"../worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\evolution  server\world server\quest\questactionsc.cpp
+	"../worldserver.h"
+
+1400440694 source:c:\users\cosola\desktop\evolution  server\world server\quest\questconditions.cpp
+	"../worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\evolution  server\world server\quest\questconditionsc.cpp
+	"../worldserver.h"
+
+1400947731 source:c:\users\cosola\desktop\evolution  server\world server\quest\quests.cpp
+	"../worldserver.h"
+
+1373555664 source:c:\users\cosola\desktop\evolution  server\world server\quest\strhashing.cpp
+	"../worldserver.h"
+	"strhashing.h"
+
+1424336741 source:c:\users\cosola\desktop\evolution  server\world server\startup.cpp
+	"worldserver.h"
+
+1373555666 source:c:\users\cosola\desktop\evolution  server\world server\stbhandler.cpp
+	"worldserver.h"
+
+1373555649 source:c:\users\cosola\desktop\evolution  server\world server\stlhandler.cpp
+	"worldserver.h"
+
+1400757652 source:c:\users\cosola\desktop\evolution  server\world server\worldmap.cpp
+	"worldmap.h"
+
+1431666980 source:c:\users\cosola\desktop\evolution  server\world server\worldserver.cpp
+	"worldserver.h"
+	<fstream>
+
+1431666599 source:c:\users\cosola\desktop\evolution  server\world server\packets.cpp
+	"worldserver.h"
+
+1431782547 source:c:\users\cosola\desktop\evolution  server\world server\playerfunctions.cpp
+	"player.h"
+	"worldserver.h"
+
+1431665596 source:c:\users\cosola\desktop\evolution  server\world server\quest.cpp
+	"worldserver.h"
+
+1431782547 source:c:\users\cosola\desktop\evolution  server\world server\worldpackets.cpp
+	"worldserver.h"
+
+1373508792 source:c:\users\randy\desktop\freerose\server\common\socketbase.cpp
+	"sockets.h"
+
+1373508791 c:\users\randy\desktop\freerose\server\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373508792 c:\users\randy\desktop\freerose\server\common\log.h
+
+1373508791 c:\users\randy\desktop\freerose\server\common\rosecrypt.hpp
+	<windows.h>
+
+1373508792 c:\users\randy\desktop\freerose\server\common\config.h
+
+1373508792 c:\users\randy\desktop\freerose\server\common\database\database.h
+	"../sockets.h"
+
+1517646325 source:c:\users\randy\desktop\freerose\server\common\socketclient.cpp
+	"sockets.h"
+
+1373508791 source:c:\users\randy\desktop\freerose\server\common\socketserver.cpp
+	"sockets.h"
+
+1373508792 source:c:\users\randy\desktop\freerose\server\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373508792 source:c:\users\randy\desktop\freerose\server\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373508791 source:c:\users\randy\desktop\freerose\server\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373508792 source:c:\users\randy\desktop\freerose\server\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1517301427 source:c:\users\randy\desktop\freerose\server\world server\buff.cpp
+	"worldserver.h"
+
+1431618795 c:\users\randy\desktop\freerose\server\world server\worldserver.h
+	"datatypes.h"
+	"../common/sockets.h"
+	"worldmonster.h"
+	"worldmap.h"
+	"player.h"
+	"character.h"
+	"party.h"
+	"stbhandler.h"
+	"stlhandler.h"
+	"quest/strhashing.h"
+	"quest/CRoseArray.hpp"
+	"quest/CRoseFile.hpp"
+	"quest/CStrStb.hpp"
+	"quest/CIntStb.hpp"
+	"quest/QuestTrigger.h"
+	"ltbhandler.h"
+	"aip/Aip.h"
+
+1406377561 c:\users\randy\desktop\freerose\server\world server\datatypes.h
+	"datatypes_compat.h"
+	"../common/sockets.h"
+
+1373508849 c:\users\randy\desktop\freerose\server\world server\datatypes_compat.h
+
+1373508849 c:\users\randy\desktop\freerose\server\world server\worldmonster.h
+	"character.h"
+	"player.h"
+	"worldserver.h"
+
+1517135169 c:\users\randy\desktop\freerose\server\world server\character.h
+	"chartype.h"
+
+1406377563 c:\users\randy\desktop\freerose\server\world server\chartype.h
+	"datatypes.h"
+
+1431697082 c:\users\randy\desktop\freerose\server\world server\player.h
+	"character.h"
+
+1400710852 c:\users\randy\desktop\freerose\server\world server\worldmap.h
+	"worldserver.h"
+	"player.h"
+	"character.h"
+	"worldmonster.h"
+	"datatypes.h"
+
+1400700940 c:\users\randy\desktop\freerose\server\world server\party.h
+	"worldserver.h"
+	"datatypes.h"
+
+1373508863 c:\users\randy\desktop\freerose\server\world server\stbhandler.h
+	"worldserver.h"
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\stlhandler.h
+	"worldserver.h"
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\quest\strhashing.h
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\quest\crosearray.hpp
+	<memory.h>
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\quest\crosefile.hpp
+	<stdio.h>
+	<stdlib.h>
+	"CRoseArray.hpp"
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\quest\cstrstb.hpp
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\quest\cintstb.hpp
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\quest\questtrigger.h
+	"QuestConditions.h"
+	"QuestActions.h"
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\quest\questconditions.h
+
+1373508864 c:\users\randy\desktop\freerose\server\world server\quest\questactions.h
+
+1373508866 c:\users\randy\desktop\freerose\server\world server\ltbhandler.h
+	"worldserver.h"
+	<map>
+
+1373508849 c:\users\randy\desktop\freerose\server\world server\aip\aip.h
+	"AiConditions.h"
+	"AiActions.h"
+
+1373508849 c:\users\randy\desktop\freerose\server\world server\aip\aiconditions.h
+
+1373508849 c:\users\randy\desktop\freerose\server\world server\aip\aiactions.h
+
+1400713430 source:c:\users\randy\desktop\freerose\server\world server\mainprocess.cpp
+	"worldserver.h"
+
+1517671804 source:c:\users\randy\desktop\freerose\server\world server\monster.cpp
+	"worldmonster.h"
+
+1517164273 source:c:\users\randy\desktop\freerose\server\world server\monsterevents.cpp
+	"worldmonster.h"
+
+1517031033 source:c:\users\randy\desktop\freerose\server\world server\monsterstats.cpp
+	"worldmonster.h"
+
+1373508864 source:c:\users\randy\desktop\freerose\server\world server\party.cpp
+	"worldserver.h"
+
+1517510649 source:c:\users\randy\desktop\freerose\server\world server\serverfunctions.cpp
+	"worldserver.h"
+
+1373508864 source:c:\users\randy\desktop\freerose\server\world server\signal.cpp
+	"worldserver.h"
+
+1373508863 source:c:\users\randy\desktop\freerose\server\world server\worldmonster.cpp
+	"worldmonster.h"
+
+1517510313 source:c:\users\randy\desktop\freerose\server\world server\worldprocess.cpp
+	"worldserver.h"
+
+1373508849 source:c:\users\randy\desktop\freerose\server\world server\aip\aiactions.cpp
+	"../WorldServer.h"
+
+1373508849 source:c:\users\randy\desktop\freerose\server\world server\aip\aiconditions.cpp
+	"../WorldServer.h"
+
+1400900931 source:c:\users\randy\desktop\freerose\server\world server\aip\aip.cpp
+	"../WorldServer.h"
+
+1517657235 source:c:\users\randy\desktop\freerose\server\world server\character.cpp
+	"character.h"
+	"worldserver.h"
+
+1405061145 source:c:\users\randy\desktop\freerose\server\world server\charevent.cpp
+	"character.h"
+
+1517509764 source:c:\users\randy\desktop\freerose\server\world server\charfunctions.cpp
+	"character.h"
+	"worldserver.h"
+	<cmath>
+
+1373508866 source:c:\users\randy\desktop\freerose\server\world server\charstats.cpp
+	"character.h"
+
+1373508849 source:c:\users\randy\desktop\freerose\server\world server\clan.cpp
+	"worldserver.h"
+
+1373508864 source:c:\users\randy\desktop\freerose\server\world server\console.cpp
+	"WorldServer.h"
+
+1404714861 source:c:\users\randy\desktop\freerose\server\world server\extrafunctions.cpp
+	"worldserver.h"
+
+1405557491 source:c:\users\randy\desktop\freerose\server\world server\gmcmds.cpp
+	"worldserver.h"
+	"player.h"
+	"datatypes.h"
+
+1400711473 source:c:\users\randy\desktop\freerose\server\world server\group.cpp
+	"worldserver.h"
+
+1373508866 source:c:\users\randy\desktop\freerose\server\world server\itemdata.cpp
+	"datatypes.h"
+
+1373508849 source:c:\users\randy\desktop\freerose\server\world server\ltbhandler.cpp
+	"ltbhandler.h"
+
+1403680181 source:c:\users\randy\desktop\freerose\server\world server\main.cpp
+	"worldserver.h"
+
+1400700937 source:c:\users\randy\desktop\freerose\server\world server\mapfunctions.cpp
+	"worldmap.h"
+
+1517112447 source:c:\users\randy\desktop\freerose\server\world server\monsterfunctions.cpp
+	"worldmonster.h"
+
+1431619799 source:c:\users\randy\desktop\freerose\server\world server\packets.cpp
+	"worldserver.h"
+
+1400700942 source:c:\users\randy\desktop\freerose\server\world server\partyfunctions.cpp
+	"party.h"
+
+1405515699 source:c:\users\randy\desktop\freerose\server\world server\player.cpp
+	"player.h"
+	"worldserver.h"
+
+1373508849 source:c:\users\randy\desktop\freerose\server\world server\playerdata.cpp
+	"player.h"
+	"worldserver.h"
+
+1516956781 source:c:\users\randy\desktop\freerose\server\world server\playerfunctions.cpp
+	"player.h"
+	"worldserver.h"
+
+1373508849 source:c:\users\randy\desktop\freerose\server\world server\playerquest.cpp
+	"player.h"
+	"worldserver.h"
+
+1406384403 source:c:\users\randy\desktop\freerose\server\world server\playerstats.cpp
+	"player.h"
+	"worldserver.h"
+
+1431618796 source:c:\users\randy\desktop\freerose\server\world server\quest.cpp
+	"worldserver.h"
+
+1400393894 source:c:\users\randy\desktop\freerose\server\world server\quest\questactions.cpp
+	"../worldserver.h"
+
+1373508864 source:c:\users\randy\desktop\freerose\server\world server\quest\questactionsc.cpp
+	"../worldserver.h"
+
+1400393894 source:c:\users\randy\desktop\freerose\server\world server\quest\questconditions.cpp
+	"../worldserver.h"
+
+1373508864 source:c:\users\randy\desktop\freerose\server\world server\quest\questconditionsc.cpp
+	"../worldserver.h"
+
+1515808379 source:c:\users\randy\desktop\freerose\server\world server\quest\quests.cpp
+	"../worldserver.h"
+
+1373508864 source:c:\users\randy\desktop\freerose\server\world server\quest\strhashing.cpp
+	"../worldserver.h"
+	"strhashing.h"
+
+1424286341 source:c:\users\randy\desktop\freerose\server\world server\startup.cpp
+	"worldserver.h"
+
+1373508866 source:c:\users\randy\desktop\freerose\server\world server\stbhandler.cpp
+	"worldserver.h"
+
+1373508849 source:c:\users\randy\desktop\freerose\server\world server\stlhandler.cpp
+	"worldserver.h"
+
+1400710852 source:c:\users\randy\desktop\freerose\server\world server\worldmap.cpp
+	"worldmap.h"
+
+1516964391 source:c:\users\randy\desktop\freerose\server\world server\worldpackets.cpp
+	"worldserver.h"
+
+1516952860 source:c:\users\randy\desktop\freerose\server\world server\worldserver.cpp
+	"worldserver.h"
+	<fstream>
+
+1517717533 source:c:\users\randy\desktop\freerose\server\world server\battle.cpp
+	"character.h"
+	"worldserver.h"
+
+1373508792 source:c:\users\gameslim\desktop\freerose\server\common\socketbase.cpp
+	"sockets.h"
+
+1520230110 c:\users\gameslim\desktop\freerose\server\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373508792 c:\users\gameslim\desktop\freerose\server\common\log.h
+
+1373508791 c:\users\gameslim\desktop\freerose\server\common\rosecrypt.hpp
+	<windows.h>
+
+1373508792 c:\users\gameslim\desktop\freerose\server\common\config.h
+
+1373508792 c:\users\gameslim\desktop\freerose\server\common\database\database.h
+	"../sockets.h"
+
+1517646325 source:c:\users\gameslim\desktop\freerose\server\common\socketclient.cpp
+	"sockets.h"
+
+1373508791 source:c:\users\gameslim\desktop\freerose\server\common\socketserver.cpp
+	"sockets.h"
+
+1373508792 source:c:\users\gameslim\desktop\freerose\server\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373508792 source:c:\users\gameslim\desktop\freerose\server\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1517729959 source:c:\users\gameslim\desktop\freerose\server\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373508792 source:c:\users\gameslim\desktop\freerose\server\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1521818841 source:c:\users\gameslim\desktop\freerose\server\world server\buff.cpp
+	"worldserver.h"
+
+1520774962 c:\users\gameslim\desktop\freerose\server\world server\worldserver.h
+	"datatypes.h"
+	"../common/sockets.h"
+	"worldmonster.h"
+	"worldmap.h"
+	"player.h"
+	"character.h"
+	"party.h"
+	"stbhandler.h"
+	"stlhandler.h"
+	"quest/strhashing.h"
+	"quest/CRoseArray.hpp"
+	"quest/CRoseFile.hpp"
+	"quest/CStrStb.hpp"
+	"quest/CIntStb.hpp"
+	"quest/QuestTrigger.h"
+	"ltbhandler.h"
+	"aip/Aip.h"
+
+1517980368 c:\users\gameslim\desktop\freerose\server\world server\datatypes.h
+	"datatypes_compat.h"
+	"../common/sockets.h"
+
+1373508849 c:\users\gameslim\desktop\freerose\server\world server\datatypes_compat.h
+
+1373508849 c:\users\gameslim\desktop\freerose\server\world server\worldmonster.h
+	"character.h"
+	"player.h"
+	"worldserver.h"
+
+1518277886 c:\users\gameslim\desktop\freerose\server\world server\character.h
+	"chartype.h"
+
+1520318416 c:\users\gameslim\desktop\freerose\server\world server\chartype.h
+	"datatypes.h"
+
+1519502583 c:\users\gameslim\desktop\freerose\server\world server\player.h
+	"character.h"
+
+1400710852 c:\users\gameslim\desktop\freerose\server\world server\worldmap.h
+	"worldserver.h"
+	"player.h"
+	"character.h"
+	"worldmonster.h"
+	"datatypes.h"
+
+1400700940 c:\users\gameslim\desktop\freerose\server\world server\party.h
+	"worldserver.h"
+	"datatypes.h"
+
+1373508863 c:\users\gameslim\desktop\freerose\server\world server\stbhandler.h
+	"worldserver.h"
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\stlhandler.h
+	"worldserver.h"
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\quest\strhashing.h
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\quest\crosearray.hpp
+	<memory.h>
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\quest\crosefile.hpp
+	<stdio.h>
+	<stdlib.h>
+	"CRoseArray.hpp"
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\quest\cstrstb.hpp
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\quest\cintstb.hpp
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\quest\questtrigger.h
+	"QuestConditions.h"
+	"QuestActions.h"
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\quest\questconditions.h
+
+1373508864 c:\users\gameslim\desktop\freerose\server\world server\quest\questactions.h
+
+1373508866 c:\users\gameslim\desktop\freerose\server\world server\ltbhandler.h
+	"worldserver.h"
+	<map>
+
+1373508849 c:\users\gameslim\desktop\freerose\server\world server\aip\aip.h
+	"AiConditions.h"
+	"AiActions.h"
+
+1373508849 c:\users\gameslim\desktop\freerose\server\world server\aip\aiconditions.h
+
+1373508849 c:\users\gameslim\desktop\freerose\server\world server\aip\aiactions.h
+
+1519833366 source:c:\users\gameslim\desktop\freerose\server\world server\mainprocess.cpp
+	"worldserver.h"
+
+1517671804 source:c:\users\gameslim\desktop\freerose\server\world server\monster.cpp
+	"worldmonster.h"
+
+1519503866 source:c:\users\gameslim\desktop\freerose\server\world server\monsterevents.cpp
+	"worldmonster.h"
+
+1521689757 source:c:\users\gameslim\desktop\freerose\server\world server\monsterstats.cpp
+	"worldmonster.h"
+
+1373508864 source:c:\users\gameslim\desktop\freerose\server\world server\party.cpp
+	"worldserver.h"
+
+1522052031 source:c:\users\gameslim\desktop\freerose\server\world server\serverfunctions.cpp
+	"worldserver.h"
+
+1373508864 source:c:\users\gameslim\desktop\freerose\server\world server\signal.cpp
+	"worldserver.h"
+
+1373508863 source:c:\users\gameslim\desktop\freerose\server\world server\worldmonster.cpp
+	"worldmonster.h"
+
+1517510313 source:c:\users\gameslim\desktop\freerose\server\world server\worldprocess.cpp
+	"worldserver.h"
+
+1518172096 source:c:\users\gameslim\desktop\freerose\server\world server\aip\aiactions.cpp
+	"../WorldServer.h"
+
+1520923628 source:c:\users\gameslim\desktop\freerose\server\world server\aip\aiconditions.cpp
+	"../WorldServer.h"
+
+1400900931 source:c:\users\gameslim\desktop\freerose\server\world server\aip\aip.cpp
+	"../WorldServer.h"
+
+1521697919 source:c:\users\gameslim\desktop\freerose\server\world server\battle.cpp
+	"character.h"
+	"worldserver.h"
+
+1517657235 source:c:\users\gameslim\desktop\freerose\server\world server\character.cpp
+	"character.h"
+	"worldserver.h"
+
+1405061145 source:c:\users\gameslim\desktop\freerose\server\world server\charevent.cpp
+	"character.h"
+
+1521825597 source:c:\users\gameslim\desktop\freerose\server\world server\charfunctions.cpp
+	"character.h"
+	"worldserver.h"
+	<cmath>
+
+1373508866 source:c:\users\gameslim\desktop\freerose\server\world server\charstats.cpp
+	"character.h"
+
+1373508849 source:c:\users\gameslim\desktop\freerose\server\world server\clan.cpp
+	"worldserver.h"
+
+1373508864 source:c:\users\gameslim\desktop\freerose\server\world server\console.cpp
+	"WorldServer.h"
+
+1521912574 source:c:\users\gameslim\desktop\freerose\server\world server\extrafunctions.cpp
+	"worldserver.h"
+
+1521989059 source:c:\users\gameslim\desktop\freerose\server\world server\gmcmds.cpp
+	"worldserver.h"
+	"player.h"
+	"datatypes.h"
+
+1400711473 source:c:\users\gameslim\desktop\freerose\server\world server\group.cpp
+	"worldserver.h"
+
+1373508866 source:c:\users\gameslim\desktop\freerose\server\world server\itemdata.cpp
+	"datatypes.h"
+
+1373508849 source:c:\users\gameslim\desktop\freerose\server\world server\ltbhandler.cpp
+	"ltbhandler.h"
+
+1403680181 source:c:\users\gameslim\desktop\freerose\server\world server\main.cpp
+	"worldserver.h"
+
+1400700937 source:c:\users\gameslim\desktop\freerose\server\world server\mapfunctions.cpp
+	"worldmap.h"
+
+1517112447 source:c:\users\gameslim\desktop\freerose\server\world server\monsterfunctions.cpp
+	"worldmonster.h"
+
+1431619799 source:c:\users\gameslim\desktop\freerose\server\world server\packets.cpp
+	"worldserver.h"
+
+1400700942 source:c:\users\gameslim\desktop\freerose\server\world server\partyfunctions.cpp
+	"party.h"
+
+1520319591 source:c:\users\gameslim\desktop\freerose\server\world server\player.cpp
+	"player.h"
+	"worldserver.h"
+
+1521699555 source:c:\users\gameslim\desktop\freerose\server\world server\playerfunctions.cpp
+	"player.h"
+	"worldserver.h"
+
+1373508849 source:c:\users\gameslim\desktop\freerose\server\world server\playerquest.cpp
+	"player.h"
+	"worldserver.h"
+
+1520766991 source:c:\users\gameslim\desktop\freerose\server\world server\playerstats.cpp
+	"player.h"
+	"worldserver.h"
+
+1431618796 source:c:\users\gameslim\desktop\freerose\server\world server\quest.cpp
+	"worldserver.h"
+
+1520923523 source:c:\users\gameslim\desktop\freerose\server\world server\quest\questactions.cpp
+	"../worldserver.h"
+
+1373508864 source:c:\users\gameslim\desktop\freerose\server\world server\quest\questactionsc.cpp
+	"../worldserver.h"
+
+1400393894 source:c:\users\gameslim\desktop\freerose\server\world server\quest\questconditions.cpp
+	"../worldserver.h"
+
+1373508864 source:c:\users\gameslim\desktop\freerose\server\world server\quest\questconditionsc.cpp
+	"../worldserver.h"
+
+1515808379 source:c:\users\gameslim\desktop\freerose\server\world server\quest\quests.cpp
+	"../worldserver.h"
+
+1373508864 source:c:\users\gameslim\desktop\freerose\server\world server\quest\strhashing.cpp
+	"../worldserver.h"
+	"strhashing.h"
+
+1521001241 source:c:\users\gameslim\desktop\freerose\server\world server\startup.cpp
+	"worldserver.h"
+
+1373508866 source:c:\users\gameslim\desktop\freerose\server\world server\stbhandler.cpp
+	"worldserver.h"
+
+1373508849 source:c:\users\gameslim\desktop\freerose\server\world server\stlhandler.cpp
+	"worldserver.h"
+
+1518174410 source:c:\users\gameslim\desktop\freerose\server\world server\worldmap.cpp
+	"worldmap.h"
+
+1521792078 source:c:\users\gameslim\desktop\freerose\server\world server\worldpackets.cpp
+	"worldserver.h"
+
+1520230185 source:c:\users\gameslim\desktop\freerose\server\world server\worldserver.cpp
+	"worldserver.h"
+	<fstream>
+
+1521223209 source:c:\users\gameslim\desktop\freerose\server\world server\playerdata.cpp
+	"player.h"
+	"worldserver.h"
+

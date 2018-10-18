@@ -1,0 +1,800 @@
+# depslib dependency file v1.0
+1317745346 source:f:\roseza\svn\trunk\common\socketbase.cpp
+	"sockets.h"
+
+1317839952 f:\roseza\svn\trunk\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1317745346 f:\roseza\svn\trunk\common\log.h
+
+1317745346 f:\roseza\svn\trunk\common\rosecrypt.hpp
+	<windows.h>
+
+1317745346 f:\roseza\svn\trunk\common\config.h
+
+1317745346 f:\roseza\svn\trunk\common\database\database.h
+	"../sockets.h"
+
+1317745346 source:f:\roseza\svn\trunk\common\socketclient.cpp
+	"sockets.h"
+
+1317745346 source:f:\roseza\svn\trunk\common\socketserver.cpp
+	"sockets.h"
+
+1317745346 source:f:\roseza\svn\trunk\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1317745346 source:f:\roseza\svn\trunk\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1317745346 source:f:\roseza\svn\trunk\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1317745346 source:f:\roseza\svn\trunk\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\roseza\common\socketbase.cpp
+	"sockets.h"
+
+1340884298 c:\users\danny\desktop\servers\rose online\roseza\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1340871867 c:\users\danny\desktop\servers\rose online\roseza\common\log.h
+
+1340871867 c:\users\danny\desktop\servers\rose online\roseza\common\rosecrypt.hpp
+	<windows.h>
+
+1340871867 c:\users\danny\desktop\servers\rose online\roseza\common\config.h
+
+1340871867 c:\users\danny\desktop\servers\rose online\roseza\common\database\database.h
+	"../sockets.h"
+
+1340884376 source:c:\users\danny\desktop\servers\rose online\roseza\common\socketclient.cpp
+	"sockets.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\roseza\common\socketserver.cpp
+	"sockets.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\roseza\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\roseza\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\roseza\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\roseza\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1340878017 source:c:\users\danny\desktop\servers\rose online\roseza\char server\charclient.cpp
+	"charserver.h"
+
+1340878507 c:\users\danny\desktop\servers\rose online\roseza\char server\charserver.h
+	<time.h>
+	"../common/sockets.h"
+	"datatypes.h"
+
+1340878590 c:\users\danny\desktop\servers\rose online\roseza\char server\datatypes.h
+	"../common/sockets.h"
+
+1340881778 source:c:\users\danny\desktop\servers\rose online\roseza\char server\charpackets.cpp
+	"charserver.h"
+
+1340878283 source:c:\users\danny\desktop\servers\rose online\roseza\char server\charserver.cpp
+	"charserver.h"
+
+1340878605 source:c:\users\danny\desktop\servers\rose online\roseza\char server\clan.cpp
+	"CharServer.h"
+
+1340871861 source:c:\users\danny\desktop\servers\rose online\roseza\char server\community.cpp
+	"charserver.h"
+
+1340877846 source:c:\users\danny\desktop\servers\rose online\roseza\char server\extrafunctions.cpp
+	"charserver.h"
+
+1340871861 source:c:\users\danny\desktop\servers\rose online\roseza\char server\main.cpp
+	"charserver.h"
+
+1340871861 source:c:\users\danny\desktop\servers\rose online\roseza\char server\signal.cpp
+	"charserver.h"
+
+1340878017 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\charclient.cpp
+	"charserver.h"
+
+1340878507 c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\charserver.h
+	<time.h>
+	"../common/sockets.h"
+	"datatypes.h"
+
+1340884298 c:\users\danny\desktop\servers\rose online\rose server\roseza\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1340871867 c:\users\danny\desktop\servers\rose online\rose server\roseza\common\log.h
+
+1340871867 c:\users\danny\desktop\servers\rose online\rose server\roseza\common\rosecrypt.hpp
+	<windows.h>
+
+1340871867 c:\users\danny\desktop\servers\rose online\rose server\roseza\common\config.h
+
+1340871867 c:\users\danny\desktop\servers\rose online\rose server\roseza\common\database\database.h
+	"../sockets.h"
+
+1340878590 c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\datatypes.h
+	"../common/sockets.h"
+
+1340881778 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\charpackets.cpp
+	"charserver.h"
+
+1340878283 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\charserver.cpp
+	"charserver.h"
+
+1340878605 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\clan.cpp
+	"CharServer.h"
+
+1340871861 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\community.cpp
+	"charserver.h"
+
+1340877846 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\extrafunctions.cpp
+	"charserver.h"
+
+1340871861 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\main.cpp
+	"charserver.h"
+
+1340871861 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\char server\signal.cpp
+	"charserver.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\common\socketbase.cpp
+	"sockets.h"
+
+1340884376 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\common\socketclient.cpp
+	"sockets.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\common\socketserver.cpp
+	"sockets.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1340871867 source:c:\users\danny\desktop\servers\rose online\rose server\roseza\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1344797736 source:c:\users\observe\desktop\irose\source\roseza\common\socketbase.cpp
+	"sockets.h"
+
+1344797737 c:\users\observe\desktop\irose\source\roseza\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1344797736 c:\users\observe\desktop\irose\source\roseza\common\log.h
+
+1344797737 c:\users\observe\desktop\irose\source\roseza\common\rosecrypt.hpp
+	<windows.h>
+
+1344797736 c:\users\observe\desktop\irose\source\roseza\common\config.h
+
+1344797736 c:\users\observe\desktop\irose\source\roseza\common\database\database.h
+	"../sockets.h"
+
+1344797736 source:c:\users\observe\desktop\irose\source\roseza\common\socketclient.cpp
+	"sockets.h"
+
+1344797736 source:c:\users\observe\desktop\irose\source\roseza\common\socketserver.cpp
+	"sockets.h"
+
+1344797736 source:c:\users\observe\desktop\irose\source\roseza\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1344797736 source:c:\users\observe\desktop\irose\source\roseza\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1344797737 source:c:\users\observe\desktop\irose\source\roseza\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1344797736 source:c:\users\observe\desktop\irose\source\roseza\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1344797839 source:c:\users\administrator\desktop\irose\roseza\char server\charclient.cpp
+	"charserver.h"
+
+1345490676 c:\users\administrator\desktop\irose\roseza\char server\charserver.h
+	<time.h>
+	"../common/sockets.h"
+	"datatypes.h"
+
+1344797846 c:\users\administrator\desktop\irose\roseza\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1344797846 c:\users\administrator\desktop\irose\roseza\common\log.h
+
+1344797846 c:\users\administrator\desktop\irose\roseza\common\rosecrypt.hpp
+	<windows.h>
+
+1344797846 c:\users\administrator\desktop\irose\roseza\common\config.h
+
+1344797846 c:\users\administrator\desktop\irose\roseza\common\database\database.h
+	"../sockets.h"
+
+1344797839 c:\users\administrator\desktop\irose\roseza\char server\datatypes.h
+	"../common/sockets.h"
+
+1344797839 source:c:\users\administrator\desktop\irose\roseza\char server\charserver.cpp
+	"charserver.h"
+
+1344797839 source:c:\users\administrator\desktop\irose\roseza\char server\clan.cpp
+	"CharServer.h"
+
+1344797839 source:c:\users\administrator\desktop\irose\roseza\char server\community.cpp
+	"charserver.h"
+
+1344797839 source:c:\users\administrator\desktop\irose\roseza\char server\extrafunctions.cpp
+	"charserver.h"
+
+1344797839 source:c:\users\administrator\desktop\irose\roseza\char server\main.cpp
+	"charserver.h"
+
+1344797839 source:c:\users\administrator\desktop\irose\roseza\char server\signal.cpp
+	"charserver.h"
+
+1344797846 source:c:\users\administrator\desktop\irose\roseza\common\socketbase.cpp
+	"sockets.h"
+
+1344797846 source:c:\users\administrator\desktop\irose\roseza\common\socketclient.cpp
+	"sockets.h"
+
+1344797846 source:c:\users\administrator\desktop\irose\roseza\common\socketserver.cpp
+	"sockets.h"
+
+1344797846 source:c:\users\administrator\desktop\irose\roseza\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1344797846 source:c:\users\administrator\desktop\irose\roseza\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1344797846 source:c:\users\administrator\desktop\irose\roseza\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1344797847 source:c:\users\administrator\desktop\irose\roseza\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1345490667 source:c:\users\administrator\desktop\irose\roseza\char server\charpackets.cpp
+	"charserver.h"
+
+1373555592 source:c:\angelic_server\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373555592 source:c:\angelic_server\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373555592 c:\angelic_server\common\database\database.h
+	"../sockets.h"
+
+1373555591 c:\angelic_server\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373555592 c:\angelic_server\common\log.h
+
+1373555591 c:\angelic_server\common\rosecrypt.hpp
+	<windows.h>
+
+1373555592 c:\angelic_server\common\config.h
+
+1373555591 source:c:\angelic_server\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373555592 source:c:\angelic_server\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1373555592 source:c:\angelic_server\common\socketbase.cpp
+	"sockets.h"
+
+1373555592 source:c:\angelic_server\common\socketclient.cpp
+	"sockets.h"
+
+1373555591 source:c:\angelic_server\common\socketserver.cpp
+	"sockets.h"
+
+1373555592 source:c:\ars\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373555592 source:c:\ars\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373555592 c:\ars\common\database\database.h
+	"../sockets.h"
+
+1373555591 c:\ars\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373555592 c:\ars\common\log.h
+
+1373555591 c:\ars\common\rosecrypt.hpp
+	<windows.h>
+
+1373555592 c:\ars\common\config.h
+
+1373555591 source:c:\ars\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373555592 source:c:\ars\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1373555592 source:c:\ars\common\socketbase.cpp
+	"sockets.h"
+
+1373555592 source:c:\ars\common\socketclient.cpp
+	"sockets.h"
+
+1373555591 source:c:\ars\common\socketserver.cpp
+	"sockets.h"
+
+1373519595 source:c:\fablerose\char server\charclient.cpp
+	"charserver.h"
+
+1373519595 c:\fablerose\char server\charserver.h
+	<time.h>
+	"../common/sockets.h"
+	"datatypes.h"
+
+1373519591 c:\fablerose\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373519592 c:\fablerose\common\log.h
+
+1373519591 c:\fablerose\common\rosecrypt.hpp
+	<windows.h>
+
+1373519592 c:\fablerose\common\config.h
+
+1373519592 c:\fablerose\common\database\database.h
+	"../sockets.h"
+
+1373519595 c:\fablerose\char server\datatypes.h
+	"../common/sockets.h"
+
+1373519595 source:c:\fablerose\char server\charpackets.cpp
+	"charserver.h"
+
+1388131319 source:c:\fablerose\char server\charserver.cpp
+	"charserver.h"
+
+1373519595 source:c:\fablerose\char server\clan.cpp
+	"CharServer.h"
+
+1373519595 source:c:\fablerose\char server\community.cpp
+	"charserver.h"
+
+1373519595 source:c:\fablerose\char server\extrafunctions.cpp
+	"charserver.h"
+
+1373519595 source:c:\fablerose\char server\main.cpp
+	"charserver.h"
+
+1373519595 source:c:\fablerose\char server\signal.cpp
+	"charserver.h"
+
+1373519592 source:c:\fablerose\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373519592 source:c:\fablerose\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373519591 source:c:\fablerose\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373519592 source:c:\fablerose\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1373519592 source:c:\fablerose\common\socketbase.cpp
+	"sockets.h"
+
+1373519592 source:c:\fablerose\common\socketclient.cpp
+	"sockets.h"
+
+1373519591 source:c:\fablerose\common\socketserver.cpp
+	"sockets.h"
+
+1373559192 source:c:\rosefate\common\config.cpp
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<ctype.h>
+
+1373559192 source:c:\rosefate\common\database\database.cpp
+	"database.h"
+	"../log.h"
+
+1373559192 c:\rosefate\common\database\database.h
+	"../sockets.h"
+
+1373559191 c:\rosefate\common\sockets.h
+	<windows.h>
+	<winsock2.h>
+	<unistd.h>
+	<netinet/in.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<arpa/inet.h>
+	<sys/ioctl.h>
+	<cstdarg>
+	<errno.h>
+	<mysql/mysql.h>
+	<cstdio>
+	<cstdlib>
+	<iostream>
+	<vector>
+	<string>
+	<cstdio>
+	<exception>
+	<time.h>
+	<assert.h>
+	<math.h>
+	<pthread.h>
+	<map>
+	<csignal>
+	"log.h"
+	"rosecrypt.hpp"
+	"config.h"
+	"database/database.h"
+
+1373559192 c:\rosefate\common\log.h
+
+1373559191 c:\rosefate\common\rosecrypt.hpp
+	<windows.h>
+
+1373559192 c:\rosefate\common\config.h
+
+1373559191 source:c:\rosefate\common\log.cpp
+	<conio.h>
+	<windows.h>
+	<cstdio>
+	<cstdio>
+	<string>
+	<time.h>
+	"log.h"
+
+1373559192 source:c:\rosefate\common\rosecrypt.cpp
+	"rosecrypt.hpp"
+
+1373559192 source:c:\rosefate\common\socketbase.cpp
+	"sockets.h"
+
+1373559192 source:c:\rosefate\common\socketclient.cpp
+	"sockets.h"
+
+1373559191 source:c:\rosefate\common\socketserver.cpp
+	"sockets.h"
+
+1373559195 source:c:\rosefate\char server\charclient.cpp
+	"charserver.h"
+
+1373559195 c:\rosefate\char server\charserver.h
+	<time.h>
+	"../common/sockets.h"
+	"datatypes.h"
+
+1373559195 c:\rosefate\char server\datatypes.h
+	"../common/sockets.h"
+
+1373559195 source:c:\rosefate\char server\charpackets.cpp
+	"charserver.h"
+
+1403021799 source:c:\rosefate\char server\charserver.cpp
+	"charserver.h"
+
+1373559195 source:c:\rosefate\char server\clan.cpp
+	"CharServer.h"
+
+1373559195 source:c:\rosefate\char server\community.cpp
+	"charserver.h"
+
+1373559195 source:c:\rosefate\char server\extrafunctions.cpp
+	"charserver.h"
+
+1373559195 source:c:\rosefate\char server\main.cpp
+	"charserver.h"
+
+1373559195 source:c:\rosefate\char server\signal.cpp
+	"charserver.h"
+
